@@ -6,7 +6,7 @@
 
     float valor_da_hora_de_trabalho = 150.0f;
     float total_hora_trabalho = 100.0f; 
-
+    
        const float IR = 0.25f;
 
        const float INCC = 0.11f; 
@@ -29,9 +29,6 @@
   printf("Imposto de previdencia :\x1b[31m %14.2f\x1b[0m\n" ,valor_imposto_previdencia);
     
   printf("Salario liquido        :\x1b[34m %14.2f\x1b[0m\n", valor_salario_liquido);
-
-  
-  
 
   
   return 0;

@@ -7,6 +7,10 @@
       float nota1 = 5.5f;
       float nota2 = 4.0f;
 
+      printf("Entre com a nota A1: ");
+      int deu_bom = scanf("%f", &nota1);
+
+      
       float media = 0.4 * nota1 + nota2 * 0.6; 
 
       printf("A média final é %f\n", media);
