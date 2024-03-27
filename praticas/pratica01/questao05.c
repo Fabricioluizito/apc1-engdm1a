@@ -8,8 +8,10 @@ int main() {
   long int gigabytes = 10;
   long int bytes = gigabytes * 1024 * 1024 * 1024;
   printf("10 Gigabytes em bytes é %ld\n", bytes);
-  
-  
+
+
+
+
   
   return 0;
 
